@@ -53,17 +53,9 @@ for article_id in unique_ids:
         print(f"Added article PMID: {article_id}")
     except Exception as e:
         print(f"Error with article {article_id}: {str(e)}")
-        failed_articles.append(article_id)
-with open("article3.json", "w", encoding="utf-8") as f:
+with open("merged_articles.json", "w", encoding="utf-8") as f:
     json.dump(all_articles, f, ensure_ascii=False, indent=4)
 end_time = time.time()
 total_time = end_time - start_time
 minutes, seconds, milliseconds = format_time(total_time)
 print(f"Downloading completed in {minutes} minutes {seconds} seconds {milliseconds} milliseconds.")
-if failed_articles:
-    with open("failed.articles.txt", "a", encoding="utf-8") as f:
-        for article_id in failed_articles:
-            f.write(f"{article_id}\n")
-else:
-    print("All articles added")
-print(f"{len(all_articles)} added, {len(failed_articles)} failed")
