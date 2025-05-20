@@ -1,0 +1,18 @@
+Weaviate
+Data was loaded into Weaviate in 8 minutes 54 seconds. 
+Data was loaded into Weaviate in 17 minutes 30 seconds.
+Data was loaded into Weaviate in 26 minutes 6 seconds.
+Data was loaded into Weaviate in 34 minutes 56 seconds.
+
+
+Elasticsearch
+Data was loaded into Elasticsearch in 10 minutes 7 seconds.
+Data was loaded into Elasticsearch in 19 minutes 54 seconds.
+Data was loaded into Elasticsearch in 29 minutes 56 seconds.
+Data was loaded into Elasticsearch in 40 minutes 32 seconds.
+
+Milvus
+Data was loaded into Milvus in 1 minutes 33 seconds.
+Data was loaded into Milvus in 3 minutes 1 seconds.
+Data was loaded into Milvus in 4 minutes 59 seconds.
+Data was loaded into Milvus in 6 minutes 21 seconds.
